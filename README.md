@@ -61,7 +61,7 @@ sudo mkfs -t ext3 /dev/sdf
 ```
 #### 4.3. Create a directory to mount the volume:
 ```bash
-sudo mkfs -t ext3 /dev/sdf
+sudo mkdir /mnt/data-store
 ```
 #### 4.4. Mount the volume:
 ```bash
