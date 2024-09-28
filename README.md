@@ -55,7 +55,7 @@ aws ec2 describe-instances --query "Reservations[*].Instances[*].PublicIpAddress
 ```bash
 df -h
 ```
-#### 4.2. Format the new volume:
+#### 4.2. Create an ext3 file system on the new volume:
 ```bash
 sudo mkfs -t ext3 /dev/sdf
 ```
