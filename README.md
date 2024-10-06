@@ -13,7 +13,7 @@
 ---
 
 ⚠️ **Attention**: 
-- All the tasks will be completed via the command line using AWS CLI. Ensure you have the necessary permissions. [AWS CloudShell](https://docs.aws.amazon.com/pt_br/cloudshell/?id=docs_gateway)
+- All the tasks will be completed via the command line using AWS CloudShell. Ensure you have the necessary permissions. [AWS CloudShell](https://docs.aws.amazon.com/pt_br/cloudshell/?id=docs_gateway)
 - Charges may apply for completing this lab. [AWS Pricing](https://aws.amazon.com/pricing/)
 - Assume you already have an EC2 instance running.
 
@@ -179,3 +179,9 @@ ls /mnt/data-store2/file.txt
 <div align="center">
   <img src="screenshot/6.PNG" width=""/>
 </div>
+
+---
+
+## Conclusion
+We can manage EBS volumes from an instance, create snapshots, and generate new volumes from those snapshots, all using AWS CloudShell through the browser in the AWS Management Console.
+
