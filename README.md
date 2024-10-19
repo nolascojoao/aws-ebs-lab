@@ -184,4 +184,5 @@ ls /mnt/data-store2/file.txt
 
 ## Conclusion
 We can manage EBS volumes from an instance, create snapshots, and generate new volumes from those snapshots, all using AWS CloudShell through the browser in the AWS Management Console.
+![Click here](/bash) to access the automated version with shell scripts.
 
